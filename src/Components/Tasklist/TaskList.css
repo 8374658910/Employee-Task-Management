@@ -1,0 +1,565 @@
+.TaskList
+{
+    width:350px;
+    border:0px solid rgb(221, 220, 220);
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 96, 96);
+    color:white;
+    margin-left:0.3rem;
+    margin-right:0.3rem; 
+    border-radius: 10%;;
+    
+
+    
+
+}
+.Task1 button{
+    background-color: rgb(192, 2, 2);
+    color:white;
+    padding:0.4rem;
+    font-size:0.3rem;
+  
+    border: 1px solid #fff;
+    border-radius: 10%;
+
+}
+.Task1 h4{
+    background-color: rgb(177, 96, 96);
+    color:white;
+
+}
+.task2 h2{
+    background-color: rgb(177, 96, 96);
+    color:white;
+    padding:0.7rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.task2 p{
+    background-color: rgb(177, 96, 96);
+    color:white;
+    padding:0.7rem;
+}
+
+
+
+.Task1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(177, 96, 96);
+    color:white;
+ 
+}
+.task2{
+    margin-top:2rem;
+    border:none;
+}
+.TaskBar{
+    margin-top:5rem;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+/*   2 */
+.TaskList-1
+{
+    border-radius: 10%;;
+    width:350px;
+    border:0px solid rgb(221, 220, 220);
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(155, 147, 44);
+    color:white;
+    margin-left:0.3rem;
+    margin-right:0.3rem; ;
+
+}
+.Task1-1 button{
+    background-color: rgb(192, 2, 2);
+    color:white;
+    padding:0.3rem;
+    font-size:0.3rem;
+ 
+    border: 1px solid #fff;
+    border-radius: 10%;
+
+}
+.Task1-1 h4{
+    background-color: rgb(155, 147, 44);
+    color:white;
+
+}
+.task2-1 h2,p{
+    background-color: rgb(155, 147, 44);
+    color:white;
+    padding:0.7rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.task2-1 p{
+    background-color: rgb(155, 147, 44);
+    color:white;
+}
+
+
+
+
+.Task1-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(155, 147, 44);
+    color:white;
+    
+}
+.task2-1{
+    margin-top:2rem;
+}
+
+/* 3 */
+
+
+
+.TaskList-2
+{
+    border-radius: 10%;;
+    width:350px;
+    border:0px solid rgb(221, 220, 220);
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 78, 156);
+    color:white;
+    margin-left:0.3rem;
+    margin-right:0.3rem; ;
+    
+}
+.Task1-2 button{
+    background-color: rgb(192, 2, 2);
+    color:white;
+    padding:0.3rem;
+    font-size:0.3rem;
+    border: 1px solid #fff;
+    border-radius: 10%;
+}
+.Task1-2 h4{
+    background-color: rgb(44, 78, 156);
+    color:white;
+
+}
+.task2-2 h2,p{
+    background-color: rgb(44, 78, 156);
+    color:white;
+    padding:0.7rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.task2-2 p{
+    background-color: rgb(44, 78, 156);
+    color:white;
+    padding:0.7rem;
+}
+
+
+
+.Task1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(44, 78, 156);
+    color:white;
+}
+.task2-2{
+    margin-top:2rem;
+}
+
+
+/* 3 
+*/
+
+
+
+.TaskList-3
+{
+    border-radius: 10%;;
+    width:350px;
+    border:0px solid rgb(221, 220, 220);
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(113, 202, 94);
+    color:white;
+    margin-left:0.3rem;
+    margin-right:0.3rem; ;
+    
+}
+.Task1-3 button{
+    background-color: rgb(192, 2, 2);
+    color:white;
+    padding:0.3rem;
+    font-size:0.3rem;
+   
+    border: 1px solid #fff;
+    border-radius: 10%;
+}
+.Task1-3 h4{
+    background-color: rgb(113, 202, 94);
+    color:white;
+
+}
+.task2-3 h2{
+    background-color: rgb(113, 202, 94);
+    color:white;
+    padding:0.7rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.task2-3 p{
+    background-color: rgb(113, 202, 94);
+    color:white;
+    padding:0.7rem;
+
+}
+
+
+
+.Task1-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(113, 202, 94);
+    color:white;
+}
+.task2-3{
+    margin-top:2rem;
+}
+
+
+
+@media (max-width:950px) and (min-width:840px)
+{
+
+    .TaskList {
+        width:350px;
+        border:5%;
+        height:350px;
+
+    }
+
+    .Task1 button{
+
+    width:60px;}
+    .Task1 h4{
+        font-size:0.8rem;
+    }
+.Task1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+    .task2 h2{
+font-size: 1rem;
+
+    }
+    .task2 p{
+        font-size: 0.8rem;
+    }
+
+
+
+    /* 1 */
+    .TaskList-1 {
+        width:350px;
+        border:5%;
+        height:350px;
+
+    }
+
+    .Task1-1 button{
+
+    width:60px;}
+    .Task1-1 h4{
+        font-size:0.8rem;
+    }
+.Task1-1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+    .task2-1 h2{
+font-size: 1rem;
+
+    }
+    .task2-1 p{
+        font-size: 0.8rem;
+    }
+
+
+    /*2 */
+    .TaskList-2 {
+        width:350px;
+        border:5%;
+        height:350px;
+
+    }
+
+    .Task1-2 button{
+
+    width:60px;}
+    .Task1-2 h4{
+        font-size:0.8rem;
+    }
+.Task1-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+    .task2-2 h2{
+font-size: 1rem;
+
+    }
+    .task2-2 p{
+        font-size: 0.8rem;
+    }
+    
+    /* 3 
+    
+    
+    */
+    .TaskList-3 {
+        width:350px;
+        border:5%;
+        height:350px;
+
+    }
+
+    .Task1-3 button{
+
+    width:60px;}
+    .Task1-3 h4{
+        font-size:0.8rem;
+    }
+.Task1-3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+    .task2-3 h2{
+font-size: 1rem;
+
+    }
+    .task2-3 p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:840)
+{
+    .TaskBar .TaskList
+    {
+        overflow-x: auto;
+    }
+    .TaskBar .TaskList-1
+    {
+        overflow-x: auto;
+    }
+    
+
+    .TaskBar .TaskList-2
+    {
+        overflow-x: auto;
+    }
+    
+    .TaskBar .TaskList-3
+    {
+        overflow-x: auto;
+    }
+    
+}
+
+
+@media (max-width:839px) and (min-width:320px)
+{
+
+    .TaskList {
+        min-width:150px;
+        border:5%;
+        height:250px;
+       
+
+    }
+
+    .Task1 button{
+
+    width:40px;}
+    .Task1 h4{
+        font-size:0.6rem;
+    }
+.Task1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+    .task2 h2{
+font-size:0.9rem;
+margin-top:-1rem;
+
+    }
+    .task2 p{
+        font-size: 1vw;
+        margin-top:-1rem;
+    }
+
+
+
+/* 1 */
+
+
+.TaskList-1{
+    min-width:150px;
+    border:5%;
+    height:250px;
+   
+
+}
+
+.Task1-1 button{
+
+width:40px;}
+.Task1-1 h4{
+    font-size:0.6rem;
+}
+.Task1-1{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.task2-1 h2{
+font-size:0.9rem;
+margin-top:-1rem;
+
+}
+.task2-1 p{
+    font-size: 1vw;
+    margin-top:-1rem;
+}
+
+
+/* 2 */
+
+.TaskList-2 {
+    min-width:150px;
+    border:5%;
+    height:250px;
+   
+
+}
+
+.Task1-2 button{
+
+width:40px;}
+.Task1-2 h4{
+    font-size:0.6rem;
+}
+.Task1-2{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.task2-2 h2{
+font-size:0.9rem;
+margin-top:-1rem;
+
+}
+.task2-2 p{
+    font-size: 1vw;
+    margin-top:-1rem;
+}
+
+/* 3 */
+
+
+.TaskList-3 {
+    min-width:150px;
+    border:5%;
+    height:250px;
+   
+
+}
+
+.Task1-3 button{
+
+width:40px;}
+.Task1-3 h4{
+    font-size:0.6rem;
+}
+.Task1-3{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.task2-3 h2{
+font-size:0.9rem;
+margin-top:-1rem;
+
+}
+.task2-3 p{
+    font-size: 1vw;
+    margin-top:-1rem;
+}
+
+
+
+
+}
+
+@media (max-width:700px)
+{
+    .TaskBar 
+    {
+        overflow-x: auto;
+
+    }
+    .TaskBar::-webkit-scrollbar
+    {
+        width:0px;
+    }
+
+}
+@media (max-width:450px)
+{
+    .TaskBar
+    {
+        margin-top:-1rem;
+    }
+    .TaskBar p{
+        font-size: 0.4rem;;
+    }
+}
+
+h1{
+    color:white;
+}
+
+

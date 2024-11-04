@@ -1,0 +1,163 @@
+.TaskNumber{
+
+  
+    text-align: center;
+ 
+    padding:3rem;
+    background-color: rgb(253, 100, 76);
+
+    border-radius: 5%;
+}
+.TaskNumber h2{
+    background-color: rgb(253, 100, 76);
+    color:white;
+}
+.TaskNumber h4{
+    background-color: rgb(253, 100, 76);
+    color:white;
+}
+
+
+.TaskNumber1{
+
+  
+    text-align: center;
+    border-radius: 5%;
+    padding:3rem;
+    background-color: rgb(44, 112, 132);
+   
+}
+.TaskNumber1 h2{
+    background-color: rgb(44, 112, 132);
+    color:white;
+}
+.TaskNumber1 h4{
+    background-color: rgb(44, 112, 132);
+    color:white;
+}
+.TaskNumber2{
+
+  
+    text-align: center;
+    border-radius: 5%;
+    padding:3rem;
+    background-color: rgb(6, 125, 24);
+    
+}
+.TaskNumber2 h2{
+    background-color: rgb(6, 125, 24);
+    color:white;
+}
+.TaskNumber2 h4{
+    background-color: rgb(6, 125, 24);
+    color:white;
+}
+.TaskNumber3{
+
+   
+    text-align: center;
+    border-radius: 5%;
+    padding:3rem;
+    background-color: #c0823c;
+   
+}
+.TaskNumber3 h2{
+    background-color: #c0823c;
+    color:white;
+}
+.TaskNumber3 h4{
+    background-color: #c0823c;
+    color:white;
+}
+.Task{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap:1.2rem;
+   margin-top:3rem;
+
+
+
+}
+
+@media (max-width:950px) and (min-width:470px)
+{
+    
+    .Task{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    
+    
+    }
+
+}
+@media (max-width:469px) and (min-width:320px)
+{
+    .Task{
+        display:grid;
+        grid-template-columns: 1fr;
+       
+        
+    
+       
+        
+    }
+    
+    .TaskNumber{
+      
+        width:100%;
+        height:3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -50px;
+
+    }
+    .TaskNumber1{
+      
+        width:100%;
+        height:3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -50px;
+    }
+    
+  
+
+    .TaskNumber2{
+      
+        width:100%;
+        height:3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -50px;
+    }
+    
+  
+    .TaskNumber3{
+      
+        width:100%;
+        height:3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+  
+    
+  
+    
+    
+
+
+
+}
+
+

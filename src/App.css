@@ -1,0 +1,118 @@
+.App{
+  padding:2rem;
+background-color: black;
+
+}
+
+.status_button{
+  width:120px;
+  background-color: green;
+  color:white;
+  padding:0.5rem;
+  font-size: 0.7rem;;
+  border:none;
+  align-items: center;
+  
+}
+
+
+.status_button1{
+  width:120px;
+  background-color: green;
+  color:white;
+  padding:0.5rem;
+  font-size: 0.7rem;;
+  border:none;
+  align-items: center;
+
+}
+.status_button1-1{
+  width:120px;
+  background-color: rgb(168, 17, 17);
+  color:white;
+  padding:0.5rem;
+  font-size: 0.7rem;;
+  border:none;
+
+
+}
+.status_button-1{
+  width:120px;
+  background-color: rgb(168, 17, 17);
+  color:white;
+  padding:0.5rem;
+  font-size: 0.7rem;;
+  border:none;
+ 
+
+}
+.StatusB{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.status_button2{
+  width:120px;
+  background-color: rgb(207, 109, 5);
+  color:white;
+  padding:0.5rem;
+  font-size: 0.7rem;;
+  border:none;
+  
+  align-items: center;
+
+
+  
+
+}
+
+@media (max-width:730px)
+{
+  .status_button{
+    width:80px;
+    background-color: green;
+    color:white;
+    padding:0.5rem;
+    font-size: 0.5rem;;
+    border:none;
+    align-items: center;
+  }
+  .status_button-1{
+    width:80px;
+    background-color: rgb(168, 17, 17);
+    color:white;
+    padding:0.5rem;
+    font-size: 0.5rem;;
+    border:none;
+    align-items: center;
+  }
+
+  .status_button2{
+    width:80px;
+    background-color: rgb(207, 109, 5);
+    color:white;
+    padding:0.5rem;
+    font-size: 0.5rem;;
+    border:none;
+    
+    align-items: center;
+}
+.status_button1-1
+{
+  width:40px;
+  font-size: 0.3rem;
+
+
+}
+.status_button1
+{
+  width:40px;
+  font-size: 0.3rem;
+}
+
+
+  
+
+
+}

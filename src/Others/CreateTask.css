@@ -1,0 +1,156 @@
+.Task_part
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+    background-color: rgb(22, 21, 23);
+    
+
+}
+
+.Task_part1-1 input{
+
+width:500px;
+outline: none;
+padding:0.6rem;
+background-color: rgb(22, 21, 23);
+margin-bottom: 0.7rem;
+border:1px solid rgb(155, 159, 155);
+color:white;
+border-radius: 5%;;
+
+}
+.Task_part1-1 h4{
+    background-color: rgb(22, 21, 23);
+    margin-bottom: 0.7rem;
+    font:200;
+    color:white;
+}
+.CreateTask{
+    width:100%;
+
+   background-color: rgb(22, 21, 23);
+   margin-top:4rem;
+ 
+   align-items: center;
+   padding:1rem;
+}
+.Task_part2
+{
+    display:flex;
+    flex-direction: column;
+
+    
+}
+.Task_part2_1 textarea{
+
+    background-color: rgb(22, 21, 23);
+    border:0.5px solid rgb(155, 159, 155);
+    border-radius: 5%;;
+    color:white;
+    padding:0.3rem;
+}
+.Task_part2_1 h4{
+    margin-bottom: 1rem;;
+    color:white;
+}
+.Task_part2 button{
+    background-color: rgb(41, 170, 127);
+    padding:0.6rem;
+    margin-top:1rem;
+    font-weight: 800;
+}
+
+@media (max-width:1070px)
+{
+
+    .Task_part1-1 input{
+
+        width:300px;
+       
+     }
+
+     .Task_part2_1 textarea{
+
+        width:400px;
+    }
+
+
+
+}
+
+
+
+@media (max-width:820px)
+{
+    .Task_part1-1 input{
+
+        width:250px;
+       
+     }
+     .Task_part2_1 textarea{
+
+        width:300px;
+    }
+
+
+}
+@media (max-width:660px)
+{
+
+    .Task_part1-1 input{
+
+        width:200px;
+       
+     }
+     .Task_part2_1 textarea{
+
+        width:225px;
+    }
+
+
+}
+
+
+@media (max-width:530px)
+{
+
+    .Task_part1-1 input{
+
+     width:300px;
+       
+     }
+
+     .Task_part2_1 textarea{
+
+     width:300px;
+    }
+
+    .Task_part
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media (max-width:420px)
+{
+    .CreateTask{
+        margin-top:10%;;
+    }
+    .Task_part1-1 input{
+        width:200px;
+          
+        }
+   
+        .Task_part2_1 textarea{
+   
+        width:200px;
+        height:100px;
+       }
+
+
+}
